@@ -1,2 +1,2 @@
-From Tomcat7-jdk8-corretto
-Copy target/maven-web-application*.war/usr/local/tomcat/webapps/maven-web-application.war 
+FROM tomcat7-jdk8-corretto
+COPY target/maven-web-application*.war/usr/local/tomcat/webapps/maven-web-application.war
